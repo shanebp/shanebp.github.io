@@ -2,9 +2,16 @@ body {
     margin: 60px auto;
     width: 70%;
 }
-nav ul, footer ul {
+nav ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     font-size: 1.5em;
+    padding: 0px;
+    list-style: none;
+    /* font-weight: bold; */
+}
+footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-size: 1em;
     padding: 0px;
     list-style: none;
     /* font-weight: bold; */
