@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Get Contact Form Working on GitHub Pages"
+title: "Contact Form on GitHub Pages"
 date: 2019-05-01
 ---
 
@@ -8,5 +8,5 @@ date: 2019-05-01
 
 <p>We could spin up a service via heroku, etc., but then we'd have to monitor & maintain it.</p>
 
-<p>Or we could use one of the many services available.  In this case, we are using formspree.io - fast, easy, free or very cheap.</p>  
+<p>Or we could use one of the many services available.  In this case, we are using formspree.io - fast, easy, free or very cheap. But it is not ideal due to branding, etc. </p>  
 
