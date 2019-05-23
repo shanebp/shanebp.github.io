@@ -4,6 +4,7 @@ body {
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-size: 1.5em;
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -20,7 +21,7 @@ a:hover {
     text-decoration: underline;
 }
 h1 {
-    font-size: 3em;
+    font-size: 2em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
@@ -41,4 +42,4 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
-Don't forget to commit the new CSS
+
