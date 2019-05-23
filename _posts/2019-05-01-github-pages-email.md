@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Get Contact Form Working on GitHub Pages"
-date: 2019-05-22
+date: 2019-05-01
 ---
 
 <p>Since this website is static, we need to use a different approach to a contact form.</p>  
