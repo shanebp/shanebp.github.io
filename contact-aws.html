@@ -29,6 +29,8 @@ AWS tester - with response
 (() => {
   const form = document.querySelector('form');
   const formResponse = document.querySelector('js-form-response');
+	
+//formResponse =  document.getElementById('js-form-response');
 
   form.onsubmit = e => {
     e.preventDefault();
@@ -55,7 +57,10 @@ AWS tester - with response
       if (response.target.status === 200) {
         // The form submission was successful
         form.reset();
-        formResponse.innerHTML = 'Thanks for the message. We will be in touch shortly.';
+        //formResponse.innerHTML = 'Thanks for the message. We will be in touch shortly.';
+	      
+	var formResponse = document.getElementById('js-form-response');
+	formResponse.innerHTML = 'Thanks for the message. We will be in touch shortly.';
       } else {
         // The form submission failed
         formResponse.innerHTML = 'Something went wrong';
