@@ -66,6 +66,7 @@ input, label {
     margin: 5px 0;
     display: inline-block;
     vertical-align: top;
+      font-size: 1.0em;
   }
   input, textarea, .recaptcha, button {
     margin: 5px 0;
