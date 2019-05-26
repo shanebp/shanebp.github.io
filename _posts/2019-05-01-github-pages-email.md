@@ -8,5 +8,5 @@ date: 2019-05-01
 
 <p>There are many services available, such as informed.io - but the free tiers do not include redirection after processing, so you land on the response page for tht service.</p>   
   
-<p>Or you can build your own. <br>We used the AWS Lambda and SES for the serverless back-end used by the Contact form.</p>  
+<p>Or you can build your own. <br>We used the AWS Lambda and SES APIs for the serverless back-end used by the Contact form.</p>  
  
