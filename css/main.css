@@ -49,11 +49,13 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+/*
 input, label {
     display:block;
 }
+*/
 
-.contact-form {
+
   h4 {
     color: #668944;
     margin-left: 20px;
@@ -141,5 +143,5 @@ input, label {
       margin: 10px;
     }
   }
-}
+
 
