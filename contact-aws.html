@@ -4,10 +4,10 @@ title: Buck Creek
 ---
 	<h1>{{ page.title }}</h1>
 
-AWS SES tester 
+Contact Us
 
 <p>
-<form action="https://w3ox9uhyuh.execute-api.us-east-1.amazonaws.com/dev/static-site-mailer" method="POST">
+<form class="contact-form" action="https://w3ox9uhyuh.execute-api.us-east-1.amazonaws.com/dev/static-site-mailer" method="POST">
   <label>
     Name
     <input type="text" name="name" required>
@@ -59,7 +59,7 @@ AWS SES tester
         // The form submission was successful
         form.reset();
         form.remove();
-	formResponse.innerHTML = 'Thanks for the message. We will be in touch shortly.';
+	formResponse.innerHTML = 'Your message was received. We will be in touch shortly.';
       } else {
         // The form submission failed
         formResponse.innerHTML = 'Something went wrong';
