@@ -76,7 +76,7 @@ input, label {
     border: 1px solid #bbb;
 
     &:focus {
-      outline-color: @accent-color;
+      outline-color: #999;
     }
   }
   input.field, textarea {
@@ -90,7 +90,7 @@ input, label {
   }
   button {
     border: 0;
-    background-color: @accent-color;
+    background-color: #999;
     padding: 8px 20px;
     color: #fff;
     margin-top: 20px;
