@@ -8,19 +8,31 @@ title: Buck Creek
 
 <p>
 <form class="contact-form" action="https://w3ox9uhyuh.execute-api.us-east-1.amazonaws.com/dev/static-site-mailer" method="POST">
-  <label>
-    Name
-    <input type="text" name="name" required>
-  </label>
-  <label>
-    Email
-    <input type="email" name="reply_to" required>
-  </label>
-  <label>
-    Message:
-    <textarea name="message" required></textarea>
-  </label>
-  <button type="submit">Send Message</button>
+  	<p>
+	  <label>
+	    Name
+	    <input type="text" name="name" required>
+	  </label>
+	</p>
+	
+	<p>
+	  <label>
+	    Email
+	    <input type="email" name="reply_to" required>
+	  </label>
+	</p>
+	
+	<p>	
+	  <label>
+	    Message:
+	    <textarea name="message" required></textarea>
+	  </label>
+	</p>
+	
+	<p>	
+	  <button type="submit">Send Message</button>
+	</p>
+	
 </form>
 </p>
 <p id="js-form-response"></p>
