@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Contact Form on GitHub Pages"
-date: 2019-05-01
+date: 2019-05-02
 ---
 
 <p>Since this website is static, we need to submit the contact form to a service.</p>  
