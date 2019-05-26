@@ -98,8 +98,8 @@ input, label {
       font-size: 0.7em;
 
     &:hover {
-      background-color: darken(#333, 10%);
-      color: darken(#fff, 10%);
+      background-color: darken(#333, 30%);
+      color: darken(#fff, 30%);
     }
   }
   .notice {
