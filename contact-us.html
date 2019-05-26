@@ -8,7 +8,10 @@ title: Buck Creek
 
 <p>
 <form class="contact-form" action="https://w3ox9uhyuh.execute-api.us-east-1.amazonaws.com/dev/static-site-mailer" method="POST">
-  	<p>
+
+	<input type="input" name="honeypot" value="" style="display: none" tabindex="-1" autocomplete="off">
+  	
+	<p>
 	  <label>
 	    Name:
 	    <input type="text" name="name" size="45" required>
@@ -35,6 +38,7 @@ title: Buck Creek
 	
 </form>
 </p>
+
 <span id="js-form-response"></span>
 
 <p></p>
