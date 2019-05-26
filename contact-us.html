@@ -50,6 +50,10 @@ title: Buck Creek
 	
   form.onsubmit = e => {
     e.preventDefault();
+	  
+    var formResponse = document.getElementById('js-form-response');
+    formResponse.innerHTML = 'Sending...';  
+	  
     // Prepare data to send
     const data = {};
     const formElements = Array.from(form);
@@ -65,8 +69,6 @@ title: Buck Creek
     xhr.send(JSON.stringify(data));
     // Callback function
     xhr.onloadend = response => {
-	    
-	var formResponse = document.getElementById('js-form-response');
 	    
       if (response.target.status === 200) {
         // The form submission was successful
