@@ -96,12 +96,15 @@ input, label {
     color: #fff;
     margin-top: 10px;
       font-size: 0.7em;
-
-    &:hover {
-      background-color: darken(#333, 30%);
-      color: darken(#fff, 30%);
-    }
+      -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+        cursor: pointer;
   }
+.button1:hover {
+  background-color: #333;
+  color: white;
+}
+
   .notice {
     display: none;
     background-color: #f2dede;
@@ -148,7 +151,7 @@ input, label {
   }
 
 span {
-    font-size: 0.8em;
+    font-size: 1.0em;
     line-height: 1.2em;
     color: #333;
 }
