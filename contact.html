@@ -2,46 +2,44 @@
 layout: default
 title: Buck Creek
 ---
-	<h1>{{ page.title }}</h1>
+<h1>{{ page.title }}</h1>
 
-<p>Contact Us</p>
+<div class="blurb">
+	<form class="contact-form" action="https://w3ox9uhyuh.execute-api.us-east-1.amazonaws.com/dev/static-site-mailer" method="POST">
 
-<p>
-<form class="contact-form" action="https://w3ox9uhyuh.execute-api.us-east-1.amazonaws.com/dev/static-site-mailer" method="POST">
+		<input type="input" name="honeypot" value="" style="display: none" tabindex="-1" autocomplete="off">
 
-	<input type="input" name="honeypot" value="" style="display: none" tabindex="-1" autocomplete="off">
-  	
-	<p>
-	  <label>
-	    Name:
-	    <input type="text" name="name" size="44" required>
-	  </label>
-	</p>
-	
-	<p>
-	  <label>
-	    Email:
-	    <input type="email" name="reply_to" size="44" required>
-	  </label>
-	</p>
-	
-	<p>	
-	  <label>
-	    Message:
-	    <textarea name="message" rows="5" cols="50" required></textarea>
-	  </label>
-	</p>
-	
-	<p>	
-	  <button class="button button1" type="submit">Send Message</button>
-	</p>
-	
-</form>
-</p>
+		<p>
+		  <label>
+		    Name:
+		    <input type="text" name="name" size="44" required>
+		  </label>
+		</p>
 
-<span id="js-form-response"></span>
+		<p>
+		  <label>
+		    Email:
+		    <input type="email" name="reply_to" size="44" required>
+		  </label>
+		</p>
 
-<p></p>
+		<p>	
+		  <label>
+		    Message:
+		    <textarea name="message" rows="5" cols="50" required></textarea>
+		  </label>
+		</p>
+
+		<p>	
+		  <button class="button button1" type="submit">Send Message</button>
+		</p>
+
+	</form>
+
+	<span id="js-form-response"></span>
+
+</div>
+
 
 <script>
 (() => {
